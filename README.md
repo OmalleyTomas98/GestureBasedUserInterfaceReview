@@ -13,9 +13,9 @@ Here is a short overview of the Project
 | `Author` | Tomas O'Malley (G00361128)@gmit.ie |
 | `Course` | Software Development GA_KSOAG_H08 Y4  |
 | `Module` | Gesture Based User Interfaces     |
-| `Program` |  Gesture Based Media Player  |
-| `Langauge` | C |
-| `Weighting` | 40% |
+| `Program` |  LaTeX Literature Review   |
+| `Langauge` | LaTeX |
+| `Weighting` | 25% |
 | `Year of Study` | 4 |
 
 ## Module Enviroment 
