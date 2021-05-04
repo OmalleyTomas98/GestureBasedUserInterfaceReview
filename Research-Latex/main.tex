@@ -1,0 +1,86 @@
+\documentclass[11pt,twoside]{report}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{hyperref}
+
+\graphicspath{{images/}}
+\usepackage[a4paper,width=150mm,top=25mm,bottom=25mm,bindingoffset=6mm]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot[CO,RE]{Author}
+
+\fancyfoot[RE,LO]{App}% other info in "inner" position of footer line
+
+\fancyfoot[LE,RO]{\thepage}
+\fancyfoot[LO,CE]{Chapter \thechapter}
+\renewcommand{\headrulewidth}{0.4pt}
+\renewcommand{\footrulewidth}{0.4pt}
+\usepackage{xcolor}
+
+\fancyfoot{} % clear all footer fields
+
+\definecolor{gmitColour}{RGB}{115, 20, 25}
+\title{
+
+
+
+{\includegraphics[width=0.5\textwidth]{gmit.png}}
+
+
+        \vspace{0.25cm}
+        {\scshape\LARGE Galway Mayo Institute of Technology, Dublin Rd Campus \par}
+        \vspace{0.25cm}
+        {\scshape\Large BSc  Honours in Software Development \par}
+        \vspace{0.5cm}
+
+
+
+
+        {\Large\bfseries  Gesture Based User Interface Experience –
+Accessibility, Evolution and Challenges\par}
+        
+        \vspace{0.5cm}
+        {\Large\itshape  Author : Tomás O'Malley (G00361128) \par}
+        \vspace{0.25cm}
+
+\vspace{1cm}
+Module Lecturer : Damien Costello \par
+Department of Computer Science \par
+\vspace{1.5cm}
+\large
+}
+
+
+\begin{document}
+\maketitle 
+
+
+\tableofcontents
+\chapter{ Introduction }
+\input{chapters/Introduction}
+
+
+
+\chapter{User Experience Evolution}
+\input{chapters/userExperience}
+
+\chapter{Gestures as a communication tool }
+\input{chapters/gestures}
+
+\chapter{Challenges for design of applications}
+\input{chapters/challenges}
+
+\chapter{Challenges for implementation}
+\input{chapters/implementation}
+
+\chapter{Conclusions}
+\input{chapters/Conclusions}
+
+\chapter{References}
+\input{chapters/References}
+
+
+\end{document}
+
+
